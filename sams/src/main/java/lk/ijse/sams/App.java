@@ -7,6 +7,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import javafx.scene.image.Image;
 
 /**
  * JavaFX App
@@ -17,8 +18,12 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("primary"), 640, 480);
+        Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/login-view.fxml"));
+        Scene scene=new Scene(root);
         stage.setScene(scene);
+        stage.setTitle("Student Attendace Management System");
+        Image image=new Image("/lk/ijse/sams/attendance.png");
+        stage.getIcons().add(image); 
         stage.show();
     }
 
