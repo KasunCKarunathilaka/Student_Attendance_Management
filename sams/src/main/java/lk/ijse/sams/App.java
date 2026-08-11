@@ -18,12 +18,16 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/login-view.fxml"));
+        //Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/login-view.fxml"));
+       // Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/admin-view.fxml"));
+         Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/lecturer-view.fxml"));
+       
         Scene scene=new Scene(root);
         stage.setScene(scene);
         stage.setTitle("Student Attendace Management System");
         Image image=new Image("/lk/ijse/sams/attendance.png");
         stage.getIcons().add(image); 
+        stage.centerOnScreen();
         stage.show();
     }
 

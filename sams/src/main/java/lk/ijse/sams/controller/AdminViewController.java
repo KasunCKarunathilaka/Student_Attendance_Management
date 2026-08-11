@@ -1,8 +1,10 @@
+package lk.ijse.sams.controller;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 
-public class PleaseProvideControllerClassName {
+public class AdminViewController {
 
     @FXML
     private Button attendanceBtn;

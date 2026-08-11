@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="721.0" prefWidth="834.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.sams.controller.LecturerViewController">
+   <children>
+      <ImageView id="logo" fitHeight="210.0" fitWidth="332.0" layoutX="244.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../systemlogo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="lecViewAttendanceBtn" layoutX="262.0" layoutY="333.0" mnemonicParsing="false" onAction="#onClickLecViewAttendanceBtn" prefHeight="135.0" prefWidth="126.0" text="lecViewAttendanceBtn">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/D:/SAMS/sams/src/main/resources/lk/ijse/sams/05_attendance.png" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Button>
+      <Button fx:id="lecViewReportBtn" layoutX="459.0" layoutY="333.0" mnemonicParsing="false" onAction="#onClickLecViewReportBtn" prefHeight="126.0" prefWidth="132.0" text="lecViewReportBtn">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/D:/SAMS/sams/src/main/resources/lk/ijse/sams/06_reports.png" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Button>
+      <Label layoutX="255.0" layoutY="484.0" text="Attendance Marking   ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="501.0" layoutY="484.0" text="Reports">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="lecViewLogOutBtn" layoutX="731.0" layoutY="7.0" mnemonicParsing="false" onAction="#onClickLecViewLogOutBtn" prefHeight="73.0" prefWidth="77.0" text="lecViewLogOutBtn">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/D:/SAMS/sams/src/main/resources/lk/ijse/sams/07_logout.png" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
