@@ -2,4 +2,5 @@ lk\ijse\sams\App.class
 lk\ijse\sams\controller\LecturerViewController.class
 module-info.class
 lk\ijse\sams\controller\LoginViewController.class
+lk\ijse\sams\controller\CourseViewController.class
 lk\ijse\sams\controller\AdminViewController.class

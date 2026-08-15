@@ -20,7 +20,8 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         //Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/login-view.fxml"));
        // Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/admin-view.fxml"));
-         Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/lecturer-view.fxml"));
+         //Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/lecturer-view.fxml"));
+         Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/course-view.fxml"));
        
         Scene scene=new Scene(root);
         stage.setScene(scene);
