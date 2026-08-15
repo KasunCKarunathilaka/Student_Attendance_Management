@@ -4,8 +4,10 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
 
 public class CourseViewController {
 
@@ -31,6 +33,9 @@ public class CourseViewController {
     private TableColumn<?, ?> courseIDClm;
 
     @FXML
+    private AnchorPane courseMangement;
+
+    @FXML
     private TableColumn<?, ?> courseNameClm;
 
     @FXML
@@ -44,6 +49,9 @@ public class CourseViewController {
 
     @FXML
     private TextField courseSearchTxtFld;
+
+    @FXML
+    private TableView<?> courseTbl;
 
     @FXML
     private Button courseUpdateBtn;

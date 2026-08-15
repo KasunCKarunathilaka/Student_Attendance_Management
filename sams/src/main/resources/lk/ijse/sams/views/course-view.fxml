@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="681.0" prefWidth="908.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.sams.controller.CourseViewController">
+<AnchorPane id="AnchorPane" fx:id="courseMangement" prefHeight="681.0" prefWidth="908.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.sams.controller.CourseViewController">
    <children>
       <Label layoutX="46.0" layoutY="24.0" prefHeight="53.0" prefWidth="271.0" text="Course Management" textAlignment="RIGHT">
          <font>
@@ -29,7 +29,7 @@
       <Label layoutX="35.0" layoutY="289.0" prefHeight="18.0" prefWidth="87.0" text="   " />
       <TextField fx:id="courseSearchTxtFld" layoutX="182.0" layoutY="285.0" />
       <Button fx:id="courseSearchBtn" layoutX="397.0" layoutY="285.0" mnemonicParsing="false" onAction="#onClickCourseSearchBtn" prefHeight="26.0" prefWidth="138.0" style="-fx-background-color: #e1b12c;" text="Search" />
-      <TableView layoutX="26.0" layoutY="341.0" prefHeight="317.0" prefWidth="854.0">
+      <TableView fx:id="courseTbl" layoutX="26.0" layoutY="341.0" prefHeight="317.0" prefWidth="854.0">
         <columns>
           <TableColumn fx:id="courseIDClm" prefWidth="108.00002479553223" text="Course_ID" />
             <TableColumn fx:id="courseCodeClm" prefWidth="132.800048828125" text="Course_Code" />
