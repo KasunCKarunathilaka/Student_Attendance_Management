@@ -57,7 +57,7 @@
       <TextField fx:id="studentEmailTxtFld" layoutX="230.0" layoutY="284.0" prefHeight="26.0" prefWidth="334.0" />
       <TextField fx:id="studentPhoneTxtFld" layoutX="230.0" layoutY="335.0" prefHeight="26.0" prefWidth="334.0" />
       <TextField fx:id="studentAddressTxtFld" layoutX="230.0" layoutY="386.0" prefHeight="26.0" prefWidth="334.0" />
-      <ComboBox fx:id="studentCourseCMBBox" layoutX="230.0" layoutY="444.0" prefHeight="26.0" prefWidth="334.0" />
+      <ComboBox fx:id="studentCourseCMBBox" layoutX="230.0" layoutY="444.0" prefHeight="26.0" prefWidth="334.0" promptText="----------Select  Course---------" />
       <Button fx:id="studentSaveBtn" layoutX="68.0" layoutY="565.0" mnemonicParsing="false" onAction="#onClickStudentSaveBtn" prefHeight="26.0" prefWidth="104.0" style="-fx-background-color: #1abc9c;" text="Save" />
       <Button fx:id="studentDeleteBtn" layoutX="317.0" layoutY="565.0" mnemonicParsing="false" onAction="#onClickStudentDeleteBtn" prefHeight="26.0" prefWidth="111.0" style="-fx-background-color: #e74c3c;" text="Delete" />
       <Button fx:id="studentUpdateBtn" layoutX="191.0" layoutY="565.0" mnemonicParsing="false" onAction="#onClickStudentUpdateBtn" prefHeight="26.0" prefWidth="104.0" style="-fx-background-color: #3498db;" text="Update" />

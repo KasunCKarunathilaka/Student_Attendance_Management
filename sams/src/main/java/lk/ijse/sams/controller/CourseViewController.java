@@ -51,6 +51,9 @@ public class CourseViewController {
     private TextField courseSearchTxtFld;
 
     @FXML
+    private TableColumn<?, ?> courseSubjectClm;
+
+    @FXML
     private TableView<?> courseTbl;
 
     @FXML

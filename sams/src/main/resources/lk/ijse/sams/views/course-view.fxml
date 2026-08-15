@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" fx:id="courseMangement" prefHeight="681.0" prefWidth="908.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.sams.controller.CourseViewController">
+<AnchorPane id="AnchorPane" fx:id="courseMangement" prefHeight="782.0" prefWidth="1093.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.sams.controller.CourseViewController">
    <children>
       <Label layoutX="46.0" layoutY="24.0" prefHeight="53.0" prefWidth="271.0" text="Course Management" textAlignment="RIGHT">
          <font>
@@ -22,19 +22,20 @@
       <TextField fx:id="courseCodeTxtFld" layoutX="182.0" layoutY="94.0" prefHeight="26.0" prefWidth="354.0" />
       <TextField fx:id="courseNameTxtFld" layoutX="182.0" layoutY="146.0" prefHeight="26.0" prefWidth="354.0" />
       <TextArea fx:id="courseDescTxtFld" layoutX="182.0" layoutY="198.0" prefHeight="60.0" prefWidth="354.0" />
-      <Button fx:id="courseSaveBtn" layoutX="679.0" layoutY="85.0" mnemonicParsing="false" onAction="#onClickCourseSaveBtn" prefHeight="26.0" prefWidth="137.0" style="-fx-background-color: #1abc9c;" text="Save" />
+      <Button fx:id="courseSaveBtn" layoutX="679.0" layoutY="85.0" mnemonicParsing="false" onAction="#onClickCourseSaveBtn" prefHeight="26.0" prefWidth="138.0" style="-fx-background-color: #1abc9c;" text="Save" />
       <Button fx:id="courseDeleteBtn" layoutX="678.0" layoutY="215.0" mnemonicParsing="false" onAction="#onClickCourseDeleteBtn" prefHeight="26.0" prefWidth="138.0" style="-fx-background-color: #e74c3c;" text="Delete" />
       <Button fx:id="courseUpdateBtn" layoutX="677.0" layoutY="146.0" mnemonicParsing="false" onAction="#onClickCourseUpdateBtn" prefHeight="26.0" prefWidth="138.0" style="-fx-background-color: #3498db;" text="Update" />
       <Button fx:id="courseClearBtn" layoutX="677.0" layoutY="284.0" mnemonicParsing="false" onAction="#onClickCourseClearBtn" prefHeight="26.0" prefWidth="138.0" style="-fx-background-color: #95a5a6;" text="Clear" />
       <Label layoutX="35.0" layoutY="289.0" prefHeight="18.0" prefWidth="87.0" text="   " />
       <TextField fx:id="courseSearchTxtFld" layoutX="182.0" layoutY="285.0" />
       <Button fx:id="courseSearchBtn" layoutX="397.0" layoutY="285.0" mnemonicParsing="false" onAction="#onClickCourseSearchBtn" prefHeight="26.0" prefWidth="138.0" style="-fx-background-color: #e1b12c;" text="Search" />
-      <TableView fx:id="courseTbl" layoutX="26.0" layoutY="341.0" prefHeight="317.0" prefWidth="854.0">
+      <TableView fx:id="courseTbl" layoutX="26.0" layoutY="335.0" prefHeight="390.0" prefWidth="1030.0">
         <columns>
           <TableColumn fx:id="courseIDClm" prefWidth="108.00002479553223" text="Course_ID" />
             <TableColumn fx:id="courseCodeClm" prefWidth="132.800048828125" text="Course_Code" />
-            <TableColumn fx:id="courseNameClm" prefWidth="232.79995727539062" text="Course_Name" />
-            <TableColumn fx:id="courseDescClm" prefWidth="346.40008544921875" text="Description" />
+            <TableColumn fx:id="courseNameClm" prefWidth="239.19992065429688" text="Course_Name" />
+            <TableColumn fx:id="courseSubjectClm" prefWidth="335.2000732421875" text="Subjects" />
+            <TableColumn fx:id="courseDescClm" prefWidth="163.20001220703125" text="Description" />
         </columns>
          <columnResizePolicy>
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />

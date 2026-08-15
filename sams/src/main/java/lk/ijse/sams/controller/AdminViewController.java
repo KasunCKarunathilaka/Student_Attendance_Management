@@ -28,6 +28,9 @@ public class AdminViewController {
     private Button studentMgtBtn;
 
     @FXML
+    private Button subjectMgtBtn;
+
+    @FXML
     private Button userMgtBtn;
 
     @FXML
@@ -57,6 +60,11 @@ public class AdminViewController {
 
     @FXML
     void onClickStudentMgtBtn(ActionEvent event) {
+
+    }
+
+    @FXML
+    void onClickSubjectMgtBtn(ActionEvent event) {
 
     }
 
