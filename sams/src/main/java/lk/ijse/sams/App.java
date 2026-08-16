@@ -24,7 +24,8 @@ public class App extends Application {
          //Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/course-view.fxml"));
          //Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/student-view.fxml"));
          //Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/lectureManagement-view.fxml"));
-         Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/subject-view.fxml"));
+//         Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/subject-view.fxml"));
+         Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/class-view.fxml"));
        
         Scene scene=new Scene(root);
         stage.setScene(scene);

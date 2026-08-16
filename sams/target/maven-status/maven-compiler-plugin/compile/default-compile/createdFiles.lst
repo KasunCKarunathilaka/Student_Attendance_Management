@@ -3,6 +3,7 @@ lk\ijse\sams\controller\StudentViewController.class
 module-info.class
 lk\ijse\sams\controller\CourseViewController.class
 lk\ijse\sams\controller\AdminViewController.class
+lk\ijse\sams\controller\ClassViewController.class
 lk\ijse\sams\controller\SubjectViewController.class
 lk\ijse\sams\controller\LecturerViewController.class
 lk\ijse\sams\controller\LectureManagementViewController.class
