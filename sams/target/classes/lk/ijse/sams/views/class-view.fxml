@@ -48,7 +48,7 @@
          </font>
       </Label>
       <ComboBox fx:id="classCourseCmbBox" layoutX="142.0" layoutY="105.0" prefHeight="26.0" prefWidth="264.0" promptText="-------Select Course-----------" />
-      <ComboBox fx:id="classSubjectCmbBox" layoutX="142.0" layoutY="143.0" prefHeight="26.0" prefWidth="264.0" />
+      <ComboBox fx:id="classSubjectCmbBox" layoutX="142.0" layoutY="143.0" prefHeight="26.0" prefWidth="264.0" promptText="------ Select Subject -------" />
       <ComboBox fx:id="classLectureCmbBox" layoutX="142.0" layoutY="183.0" prefHeight="26.0" prefWidth="264.0" />
       <DatePicker fx:id="classDatePicker" layoutX="142.0" layoutY="225.0" prefHeight="20.0" prefWidth="264.0" />
       <TextField fx:id="classStartTimeTxtFld" layoutX="142.0" layoutY="266.0" prefHeight="26.0" prefWidth="264.0" />

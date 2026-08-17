@@ -1,5 +1,6 @@
 lk\ijse\sams\App.class
 lk\ijse\sams\controller\StudentViewController.class
+lk\ijse\sams\controller\AttendanceViewController.class
 module-info.class
 lk\ijse\sams\controller\CourseViewController.class
 lk\ijse\sams\controller\AdminViewController.class

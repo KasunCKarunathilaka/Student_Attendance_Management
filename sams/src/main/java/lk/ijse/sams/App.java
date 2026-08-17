@@ -20,24 +20,26 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         //Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/login-view.fxml"));
        //Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/admin-view.fxml"));
-         //Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/lecturer-view.fxml"));
+         Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/lecturer-view.fxml"));
          //Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/course-view.fxml"));
          //Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/student-view.fxml"));
          //Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/lectureManagement-view.fxml"));
 //         Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/subject-view.fxml"));
-         Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/class-view.fxml"));
+       //  Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/class-view.fxml"));
        
-        Scene scene=new Scene(root);
+       //Parent root=FXMLLoader.load(getClass().getResource("/lk/ijse/sams/views/Admin-view.fxml"));
+       
+        scene=new Scene(root);
         stage.setScene(scene);
         stage.setTitle("Student Attendace Management System");
         Image image=new Image("/lk/ijse/sams/attendance.png");
-        stage.getIcons().add(image); 
+        stage.getIcons().add(image);
         stage.centerOnScreen();
         stage.show();
     }
 
-    static void setRoot(String fxml) throws IOException {
-        scene.setRoot(loadFXML(fxml));
+    static void setRoot(Parent rootElement) throws IOException {
+        scene.setRoot(rootElement);
     }
 
     private static Parent loadFXML(String fxml) throws IOException {
