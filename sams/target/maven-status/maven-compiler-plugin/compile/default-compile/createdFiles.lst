@@ -8,4 +8,5 @@ lk\ijse\sams\controller\ClassViewController.class
 lk\ijse\sams\controller\SubjectViewController.class
 lk\ijse\sams\controller\LecturerViewController.class
 lk\ijse\sams\controller\LectureManagementViewController.class
+lk\ijse\sams\controller\UserViewController.class
 lk\ijse\sams\controller\LoginViewController.class
